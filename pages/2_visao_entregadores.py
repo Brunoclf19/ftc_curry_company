@@ -87,7 +87,7 @@ def clean_code (df1):
 # ------------------------------
 # Importando dataset
 # ------------------------------ 
-df = pd.read_csv(r'C:\Users\Giovanna\OneDrive\Documentos\FTC\train.csv')
+df = pd.read_csv(r'dataset\train.csv')
 # df1 = df.copy()
 
 # ------------------------------ 
@@ -98,7 +98,6 @@ df1 = clean_code(df)
 # Visão - Entregadores
 st.header('Marketplace - Visão Entregadores')
 
-#image_path = r'C:\Users\Giovanna\OneDrive\Documentos\FTC\Imagem\logo-ia.png'
 image = Image.open('logo-ia.png')
 st.sidebar.image(image, width=120)
 
@@ -182,12 +181,3 @@ with tab3:
         # Função 1) Mais lentos
         df_top_slow = top_delivers(df1, top_asc=[True, False])
         st.dataframe(df_top_slow, width=500)
-
-
-
-
-
-
-        
-        
-        
