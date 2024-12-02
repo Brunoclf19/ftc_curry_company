@@ -340,6 +340,3 @@ with tab1[0]:
         st.title('Distribuição da distância')
         df_aux = avg_std_city_order(df1)
         st.dataframe(df_aux)
-
-
-        
