@@ -230,7 +230,7 @@ def clean_code (df1):
 # ------------------------------
 # Importando dataset
 # ------------------------------ 
-df = pd.read_csv(r'/workspaces/ftc_curry_company/dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 # df1 = df.copy()
 
 # ------------------------------ 
