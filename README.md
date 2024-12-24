@@ -1,3 +1,9 @@
+## Curry Company
+
+<div align="center">
+<img src="img/company-air.jpg" />
+</div>
+
 # 1. Problema de negócio
 
 A Cury Company é uma empresa de tecnologia que criou um aplicativo que conecta restaurantes, entregadores e pessoas.
