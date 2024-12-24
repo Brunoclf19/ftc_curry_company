@@ -9,8 +9,6 @@ from streamlit_folium import st_folium
 from PIL import Image
 import datetime as datetime
 
-st.set_page_config(page_title='Visão Empresa', page_icon='🎲', layout='wide')
-
 # ----------------
 # Funções
 # ----------------
@@ -155,13 +153,12 @@ def clean_code (df1):
 # Importando dataset
 # ------------------------------ 
 df = pd.read_csv('dataset/train.csv')
-
-# df1 = df.copy()
-
 # ------------------------------ 
 # Limpando os dados
 # ------------------------------ 
 df1 = clean_code(df)
+
+st.set_page_config(page_title='Visão Empresa', page_icon='🎲', layout='wide')
 
 #--------------------------------------------------------------
 # Barra lateral - Filtros
