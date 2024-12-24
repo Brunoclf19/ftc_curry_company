@@ -87,7 +87,7 @@ def clean_code (df1):
 # ------------------------------
 # Importando dataset
 # ------------------------------ 
-df = pd.read_csv(r'dataset\train.csv')
+df = pd.read_csv('dataset/train.csv')
 # df1 = df.copy()
 
 # ------------------------------ 
@@ -181,3 +181,4 @@ with tab3:
         # Função 1) Mais lentos
         df_top_slow = top_delivers(df1, top_asc=[True, False])
         st.dataframe(df_top_slow, width=500)
+        
