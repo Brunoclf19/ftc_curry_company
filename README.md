@@ -1,7 +1,7 @@
 ## Curry Company
 
 <div align="center">
-<img src="img/company-air.jpg" />
+<img src="tela-fundo.jpg" />
 </div>
 
 # 1. Problema de negócio
